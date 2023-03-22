@@ -1,0 +1,388 @@
+{
+  "name": "Turbo",
+  "author": "tawek",
+  "editorScheme": "/editor/turbo.xml",
+  "dark": true,
+  "colors": {
+    "dosBlue": "#0000AA",
+    "dosLightBlue": "#5555FF",
+    "dosWhite": "#FFFFFF",
+    "dosLightGray": "#D1D1D1",
+    "dosGray": "#AAAAAA",
+    "dosDarkGray": "#555555",
+    "dosGreen": "#00AA00",
+    "dosLightGreen": "#55FF55",
+    "dosBlack": "#000000",
+    "dosCyan": "#00AAAA",
+    "dosLightCyan": "#55FFFF",
+    "dosRed": "#AA0000",
+    "dosLightRed": "#FF5555",
+    "dosLightYellow": "#FFFF55",
+    "dosYellow": "#aaaa00",
+    "dosFuchsia": "#AA00AA",
+    "dosPink": "#FF55FF"
+  },
+  "ui": {
+    "*" :{
+      "arc": "0",
+      "background": "dosGray",
+      "contentAreaColor": "dosBlue",
+      "foreground": "dosBlack",
+      "underlinedTabBackground": "dosGreen",
+      "underlinedTabForeground": "dosBlack",
+      "focusColor": "dosWhite",
+      "focusedBorderColor": "dosWhite",
+      "caretForeground": "dosWhite",
+
+      "infoForeground": "dosBlack",
+      "successForeground": "dosBlack",
+      "modifiedItemForeground": "dosRed",
+
+      "inactiveUnderlineColor": "dosLightYellow",
+      "underlineColor" : "dosWhite",
+      "borderColor" : "dosBlack",
+      "hoverBackground" : "dosWhite",
+
+      "selectionBackground" : "dosGreen",
+      "selectionForeground" : "dosWhite",
+      "selectionInactiveBackground" : "dosGray",
+      "selectionInactiveForeground" : "dosLightYellow",
+
+      "borderInsets": "2,2,2,2",
+
+      "thumbColor": "dosLightGray",
+      "thumbBorderColor": "dosLightGray",
+      "hoverThumbColor": "dosWhite",
+      "hoverThumbBorderColor": "dosLightGray",
+      "hoverTrackColor": "dosGray"
+
+    },
+
+    "Component.focusedBorderColor": "dosWhite",
+    "Component.disabledBorderColor": "dosDarkGray",
+    "Component.focusWidth": "1",
+    "Component.errorFocusColor": "dosRed",
+    "Component.iconColor": "dosBlack",
+    "Component.hoverIconColor": "dosBlack",
+    "Component.inactiveErrorFocusColor": "dosRed",
+    "Component.warningFocusColor": "dosRed",
+    "Component.inactiveWarningFocusColor": "dosRed",
+    "Component.infoForeground": "dosDarkGray",
+
+    "Panel.background": "dosGray",
+    "Panel.foreground": "dosBlack",
+    "Panel.mouseShortcutBackground": "dosGray",
+
+    "SidePanel.background": "dosGray",
+    "WelcomeScreen.SidePanel.background": "dosGray",
+
+    "TabbedPane.background": "dosGray",
+    "TabbedPane.foreground": "dosBlack",
+    "TabbedPane.contentAreaColor": "dosWhite",
+    "TabbedPane.disabledForeground": "dosDarkGray",
+    "TabbedPane.disabledUnderlineColor": "dosDarkGray",
+    "TabbedPane.hoverColor": "dosWhite",
+    "TabbedPane.tabSelectionArc": "0",
+    "TabbedPane.tabSelectionHeight": "2",
+    "TabbedPane.underlineColor": "dosGreen",
+    "TabbedPane.focus": "dosGreen",
+    "TabbedPane.focusColor": "dosGreen",
+
+
+    "ComboBox.background": "dosCyan",
+    "ComboBox.foreground": "dosBlack",
+    "ComboBox.disabledForeground": "dosDarkGray",
+    "ComboBox.nonEditableBackground": "dosCyan",
+    "ComboBox.ArrowButton.background": "dosGreen",
+    "ComboBox.ArrowButton.iconColor": "dosBlack",
+    "ComboBox.ArrowButton.nonEditableBackground": "dosGreen",
+    "ComboBox.ArrowButton.disabledIconColor": "dosDarkGray",
+    "ComboBoxButton.background": "dosCyan",
+    "ComboBox.disabledBackground": "dosGray",
+
+    "CheckBox.background": "dosCyan",
+    "CheckBox.foreground": "dosBlack",
+    "CheckBox.disabledText": "dosDarkGray",
+    "CheckBox.select": "dosBlack",
+
+    "RadioButton.background": "dosCyan",
+    "RadioButton.foreground": "dosBlack",
+    "RadioButton.disabledText": "dosDarkGray",
+
+    "ActionButton.hoverBackground": "dosGray",
+    "ActionButton.hoverBorderColor": "dosWhite",
+    "ActionButton.pressedBackground": "dosGreen",
+    "ActionButton.pressedBorderColor": "dosWhite",
+
+    "Button.background": "dosGray",
+    "Button.foreground": "dosBlack",
+    "Button.disabledText": "dosDarkGray",
+    "Button.select": "dosWhite",
+    "Button.disabledBorderColor": "dosDarkGray",
+    "Button.shadowColor": "dosDarkGray",
+    "Button.startBackground": "dosGreen",
+    "Button.endBackground": "dosGreen",
+    "Button.startBorderColor": "dosBlack",
+    "Button.endBorderColor": "dosBlack",
+    "Button.shadowWidth": "5",
+
+    "Button.default.foreground": "dosLightCyan",
+    "Button.default.shadowColor": "dosDarkGray",
+    "Button.default.startBackground": "dosGreen",
+    "Button.default.endBackground": "dosGreen",
+    "Button.default.startBorderColor": "dosBlack",
+    "Button.default.endBorderColor": "dosBlack",
+
+    "Label.background": "dosGray",
+    "Label.foreground": "dosBlack",
+    "Label.successForeground": "dosBlack",
+    "Label.infoForeground": "dosBlack",
+    "Label.errorForeground": "dosRed",
+    "Label.disabledForeground": "dosDarkGray",
+    "Label.disabledText": "dosDarkGray",
+    "Label.selectedForeground": "dosWhite",
+
+    "Viewport.foreground": "dosBlack",
+    "Viewport.background": "dosGray",
+
+    "Editor.background": "dosBlue",
+    "Editor.foreground": "dosWhite",
+    "Editor.shortcutForeground": "dosLightCyan",
+    "Editor.SearchField.background": "dosBlue",
+    "Editor.Toolbar.borderColor": "dosBlack",
+
+    "EditorTabs.inactiveColoredFileBackground": "dosGray",
+
+    "TextField.background": "dosBlue",
+    "TextField.foreground": "dosWhite",
+    "TextField.darkShadow": "dosDarkGray",
+    "TextField.highlight": "dosGreen",
+    "TextField.inactiveForeground": "dosDarkGray",
+    "TextField.inactiveBackground": "dosGray",
+
+    "FormattedTextField.inactiveBackground": "dosBlue",
+    "FormattedTextField.inactiveForeground": "dosGray",
+    "FormattedTextField.background": "dosBlue",
+    "FormattedTextField.foreground": "dosWhite",
+    "FormattedTextField.caretForeground": "dosWhite",
+
+    "TextArea.background": "dosBlue",
+    "TextArea.caretForeground": "dosWhite",
+    "TextArea.foreground": "dosWhite",
+    "TextArea.inactiveBackground": "dosBl",
+    "TextArea.inactiveForeground": "dosGray",
+
+
+    "Menu.background": "dosGray",
+    "Menu.foreground": "dosBlack",
+    "Menu.acceleratorForeground": "dosRed",
+    "Menu.disabledBackground": "dosGray",
+    "Menu.disabledForeground": "dosDarkGray",
+    "Menu.acceleratorSelectionForeground": "dosRed",
+    "Menu.borderColor": "dosBlack",
+    "MenuBar.disabledBackground": "dosGray",
+    "MenuBar.disabledForeground": "dosDarkGray",
+    "MenuBar.borderColor": "dosBlack",
+    "MenuBar.highlight": "dosGreen",
+    "MenuBar.shadow": "dosDarkGray",
+
+    "RadioButtonMenuItem.acceleratorForeground": "dosRed",
+    "RadioButtonMenuItem.background": "dosGray",
+    "RadioButtonMenuItem.foreground": "dosBlack",
+    "RadioButtonMenuItem.disabledBackground": "dosGray",
+    "RadioButtonMenuItem.disabledForeground": "dosDarkGray",
+    "RadioButtonMenuItem.acceleratorSelectionForeground": "dosRed",
+
+    "CheckBoxMenuItem.acceleratorForeground": "dosRed",
+    "CheckBoxMenuItem.background": "dosGray",
+    "CheckBoxMenuItem.foreground": "dosBlack",
+    "CheckBoxMenuItem.disabledBackground": "dosGray",
+    "CheckBoxMenuItem.disabledForeground": "dosDarkGray",
+    "CheckBoxMenuItem.acceleratorSelectionForeground": "dosRed",
+
+
+    "Banner.errorBackground" : "dosGray",
+    "Banner.errorBorderColor" : "dosRed",
+    "Banner.infoBackground" : "dosGray",
+    "Banner.infoBorderColor" : "dosWhite",
+    "Banner.successBackground" : "dosGray",
+    "Banner.successBorderColor" : "dosGreen",
+    "Banner.warningBackground" : "dosGray",
+    "Banner.warningBorderColor" : "dosLightYellow",
+
+    "Borders.color" : "dosDarkGray",
+    "Borders.ContrastBorderColor" : "dosDarkGray",
+
+    "OptionPane.background" : "dosGray",
+    "OptionPane.foreground" : "dosBlack",
+    "OptionPane.messageForeground" : "dosBlack",
+
+    "OptionButton.separatorColor" : "dosDarkGray",
+    "OptionButton.default.separatorColor" : "dosLightCyan",
+
+
+    "Tree.background" : "dosCyan",
+    "Tree.foreground" : "dosBlack",
+    "Tree.hoverInactiveBackground" : "dosDarkGray",
+    "Tree.hash" : "dosDarkGray",
+    "Tree.errorForeground" : "dosRed",
+    "Tree.textBackground" : "dosGray",
+    "Tree.textForeground" : "dosBlack",
+
+    "Table.background" : "dosCyan",
+    "Table.foreground" : "dosBlack",
+    "Table.gridColor" : "dosDarkGray",
+    "Table.focusCellForeground" : "dosWhite",
+    "TableHeader.background" : "dosGray",
+    "TableHeader.foreground" : "dosBlack",
+    "TableHeader.focusCellBackground" : "dosGreen",
+
+    "ValidationTooltip.errorBackground" : "dosGray",
+    "ValidationTooltip.errorBorderColor" : "dosRed",
+    "ValidationTooltip.warningBackground" : "dosGray",
+    "ValidationTooltip.warningBorderColor" : "dosLightYellow",
+
+
+    "List.background" : "dosCyan",
+    "List.foreground" : "dosBlack",
+    "List.Tag.background" : "dosCyan",
+    "List.Tag.foreground" : "dosBlack",
+
+    "Bookmark.iconBackground" : "dosGray",
+    "Bookmark.Mnemonic.iconForeground" : "dosBlack",
+    "Bookmark.Mnemonic.iconBorderColor" : "dosBlack",
+    "Bookmark.Mnemonic.iconBackground" : "dosGray",
+    "Bookmark.MnemonicAssigned.background" : "dosGray",
+    "Bookmark.MnemonicAssigned.foreground" : "dosWhite",
+    "Bookmark.MnemonicAvailable.background" : "dosGray",
+    "Bookmark.MnemonicAvailable.foreground" : "dosBlack",
+    "Bookmark.MnemonicCurrent.background" : "dosGray",
+    "Bookmark.MnemonicCurrent.foreground" : "dosGreen",
+
+    "CompletionPopup.foreground" : "dosBlack",
+    "CompletionPopup.matchForeground" : "dosLightBlue",
+    "CompletionPopup.nonFocusedState": "false",
+    "CompletionPopup.selectionBackground" : "dosGreen",
+    "CompletionPopup.selectionInactiveBackground" : "dosLightGray",
+    "CompletionPopup.selectionForeground" : "dosWhite",
+
+    "ToolWindow.background": "dosGray",
+
+    "ToolWindow.Button.hoverBackground": "dosWhite",
+    "ToolWindow.Button.selectedBackground": "dosLightGray",
+    "ToolWindow.Button.selectedForeground": "dosBlack",
+
+    "ToolWindow.Header.borderColor": "dosBlack",
+    "ToolWindow.Header.background": "dosLightGray",
+    "ToolWindow.Header.inactiveBackground": "dosGray",
+
+    "ToolWindow.HeaderTab.hoverBackground": "dosWhite",
+    "ToolWindow.HeaderTab.hoverInactiveBackground": "dosWhite",
+    "ToolWindow.HeaderTab.underlinedTabBackground": "dosGreen",
+    "ToolWindow.HeaderTab.selectedInactiveBackground": "dosLightGray",
+    "ToolWindow.HeaderTab.underlinedTabInactiveBackground": "dosLightGray",
+
+    "Notification.errorBackground": "dosGray",
+    "Notification.errorBorderColor": "dosBlack",
+    "Notification.errorForeground": "dosRed",
+    "Notification.ToolWindow.informativeBackground": "dosGray",
+    "Notification.ToolWindow.informativeBorderColor": "dosBlack",
+    "Notification.ToolWindow.informativeForeground": "dosBlack",
+    "Notification.ToolWindow.warningBackground": "dosGray",
+    "Notification.ToolWindow.warningBorderColor": "dosBlack",
+    "Notification.ToolWindow.warningForeground": "dosLightYellow",
+    "Notification.ToolWindow.errorBackground": "dosGray",
+    "Notification.ToolWindow.errorBorderColor": "dosBlack",
+    "Notification.ToolWindow.errorForeground": "dosRed",
+
+    "Link.activeForeground" : "dosBlue",
+    "Link.hoverForeground" : "dosWhite",
+    "Link.pressedForeground" : "dosLightBlue",
+    "Link.visitedForeground" : "dosBlue",
+    "Link.secondaryForeground" : "dosBlue",
+    "Hyperlink.linkColor" : "dosBlue",
+    "ActionLink.foreground" : "dosBlue",
+
+    "textHighlight" : "dosWhite",
+    "textText" : "dosBlack",
+    "textHighlightText" : "dosWhite",
+    "window" : "dosGray",
+    "windowText" : "dosBlack",
+    "windowBorder" : "dosBlack",
+
+    "FileColor": {
+      "Yellow": "#FFFF55",
+      "Green": "#55FF55",
+      "Blue": "#5555FF",
+      "Violet": "#AA55FF",
+      "Orange": "#FFAA55",
+      "Rose": "#FF55AA",
+      "Gray": "#D1D1D1"
+    },
+
+    "ParameterInfo": {
+      "background": "dosCyan",
+      "foreground": "dosBlack",
+      "currentOverloadBackground": "dosGreen",
+      "currentParameterForeground": "dosWhite"
+    }
+
+  },
+  "icons": {
+    "ColorPalette": {
+      "Actions.Grey": "#000000FF",
+      "Actions.Red": "#AA0000FF",
+      "Actions.Yellow": "#FFFF55FF",
+      "Actions.Green": "#55FF55FF",
+      "Actions.Blue": "#5555FFFF",
+      "Actions.GreyInline": "#FFFFFFD0",
+
+      "Objects.Grey": "#00000080",
+      "Objects.RedStatus": "#AA0000FF",
+      "Objects.Red": "#AA0000FF",
+      "Objects.Pink": "#AA00AAFF",
+      "Objects.Yellow": "#FFFF00FF",
+      "Objects.Green": "#02B202FF",
+      "Objects.Blue": "#0000AAFF",
+      "Objects.Purple": "#AA00AAFF",
+      "Objects.BlackText": "#000000FF",
+      "Objects.YellowDark": "#AAAA00FF",
+      "Objects.GreenAndroid": "#02B202FF",
+
+      "Checkbox.Border.Default": "#000000FF",
+      "Checkbox.Background.Default": "#00AAAAFF",
+      "Checkbox.Background.Selected": "#00AAAAFF",
+      "Checkbox.Foreground.Selected": "#000000FF",
+      "Checkbox.Border.Selected": "#000000FF",
+
+      "Checkbox.Focus.Wide": "#FFFFFFFF",
+      "Checkbox.Focus.Thin.Default": "#FFFFFFFF",
+      "Checkbox.Focus.Thin.Selected": "#FFFFFFFF",
+
+      "Checkbox.Background.Disabled": "#AAAAAAFF",
+      "Checkbox.Foreground.Disabled": "#555555FF",
+      "Checkbox.Border.Disabled": "#555555FF",
+
+      "Tree.iconColor": "#00000080"
+
+
+    }
+  },
+  "iconColorsOnSelection": {
+    "#767a8a": "#ffffff",
+    "#6e6e6e": "#ffffff",
+    "#db5860": "#ffffff",
+    "#f26522": "#ffffff",
+    "#40b6e0": "#ffffff",
+    "#62b543": "#ffffff",
+    "#f98b9e": "#ffffff",
+    "#f4af3d": "#ffffff",
+    "#b99bf8": "#ffffff",
+    "#9aa7b0": "#ffffff",
+    "#02B202": "#ffffff",
+    "#9AA7B0": "#ffffff",
+    "#499C54": "#ffffff",
+    "#59A869": "#ffffff"
+  }
+
+}
