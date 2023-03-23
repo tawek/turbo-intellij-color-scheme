@@ -2,3 +2,5 @@
 Old school color scheme for intellij.
 
 You have be old enough to use it ;)
+
+![Screenshot](screenshot.png)
