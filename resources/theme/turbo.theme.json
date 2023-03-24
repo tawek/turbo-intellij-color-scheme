@@ -3,6 +3,12 @@
   "author": "tawek",
   "editorScheme": "/editor/turbo.xml",
   "dark": true,
+  "emptyFrameBackground": {
+    "image": "bg.png",
+    "transparency": 100,
+    "fill": "tile",
+    "anchor": "top_left"
+  },
   "colors": {
     "dosBlue": "#0000AA",
     "dosLightBlue": "#5555FF",
