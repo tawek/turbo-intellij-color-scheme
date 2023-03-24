@@ -54,7 +54,8 @@
       "thumbBorderColor": "dosLightGray",
       "hoverThumbColor": "dosWhite",
       "hoverThumbBorderColor": "dosLightGray",
-      "hoverTrackColor": "dosGray"
+      "hoverTrackColor": "dosGray",
+      "linkForeground" : "dosBlue"
 
     },
 
